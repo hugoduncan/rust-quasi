@@ -20,7 +20,9 @@ version = "*"
 [dependencies.syntex]
 version = "*"
 git = "https://github.com/erickt/rust-syntex.git"
+optional = true
 
 [dependencies.syntex_syntax]
 version = "*"
 git = "https://github.com/erickt/rust-syntex.git"
+optional = true
