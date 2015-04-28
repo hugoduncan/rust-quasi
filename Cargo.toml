@@ -21,6 +21,7 @@ git = "https://github.com/erickt/rust-syntex.git"
 [dev-dependencies.quasi_macros]
 version = "0.1.9"
 path = "quasi_macros"
+features = [ "default"]
 
 [[test]]
 name = "test"
