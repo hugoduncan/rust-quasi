@@ -28,7 +28,7 @@ syntex = { version = "*" }
 
 [dev-dependencies.syntex_syntax]
 version = "*"
-path = "../rust-syntex/syntex_syntax"
+git = "https://github.com/erickt/rust-syntex.git"
 
 [[test]]
 name = "test"
