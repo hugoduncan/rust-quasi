@@ -10,7 +10,7 @@
 
 #![feature(rustc_private)]
 
-extern crate syntax;
+extern crate syntex_syntax as syntax;
 
 use std::borrow::ToOwned;
 
