@@ -10,16 +10,12 @@ repository = "https://github.com/erickt/rust-quasi"
 name = "quasi_macros"
 plugin = true
 
-[features]
-default = ["syntex", "syntex_syntax"]
-
 [dependencies.aster]
-version = "*"
+git = "https://github.com/erickt/rust-aster.git"
+branch = "syntex"
 
 [dependencies.syntex]
-version = "*"
-optional = true
+git = "https://github.com/erickt/rust-syntex.git"
 
 [dependencies.syntex_syntax]
-version = "*"
-optional = true
+git = "https://github.com/erickt/rust-syntex.git"
