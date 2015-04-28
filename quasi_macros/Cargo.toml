@@ -14,7 +14,8 @@ plugin = true
 default = [ "syntex", "syntex_syntax" ]
 
 [dependencies.aster]
-git = "https://github.com/erickt/rust-syntex.git"
+git = "https://github.com/erickt/rust-aster.git"
+branch = "syntex"
 version = "*"
 
 [dependencies.syntex]
