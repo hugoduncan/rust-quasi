@@ -8,7 +8,7 @@ repository = "https://github.com/erickt/rust-quasi"
 
 [lib]
 name = "quasi_macros"
-plugin = true
+# plugin = true
 
 [features]
 default = [ "syntex", "syntex_syntax" ]
