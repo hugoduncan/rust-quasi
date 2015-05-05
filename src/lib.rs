@@ -177,6 +177,7 @@ impl_to_source! { Generics, generics_to_string }
 impl_to_source! { P<ast::Item>, item_to_string }
 impl_to_source! { P<ast::Stmt>, stmt_to_string }
 impl_to_source! { P<ast::Expr>, expr_to_string }
+impl_to_source! { P<ast::Lit>, lit_to_string }
 impl_to_source! { P<ast::Pat>, pat_to_string }
 impl_to_source! { ast::Arm, arm_to_string }
 impl_to_source_slice! { ast::Ty, ", " }
@@ -344,6 +345,7 @@ impl_to_tokens! { ast::Ty }
 impl_to_tokens! { Generics }
 impl_to_tokens! { P<ast::Stmt> }
 impl_to_tokens! { P<ast::Expr> }
+impl_to_tokens! { P<ast::Lit> }
 impl_to_tokens! { ast::Block }
 impl_to_tokens! { ast::Arg }
 impl_to_tokens! { ast::Attribute_ }
